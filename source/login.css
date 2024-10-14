@@ -1,0 +1,113 @@
+@media only screen and (min-width: 600px) {
+
+    body {
+        background-image: url(psbg2.jpg);
+        background-repeat: no-repeat;
+        background-size: 1024px 800 px;
+    }
+
+    .white-background {
+        /* used to generate the white strip in the right */
+        position: absolute;
+        height: 100%;
+        right: 0;
+        top: 0;
+        width: 50%;
+        background: rgba(255, 255, 255);
+    }
+
+    .form {
+        position: relative;
+        text-align: left;
+        left: 2%;
+        top: 250px;
+
+
+    }
+
+    .title {
+        color: #dd571c;
+    }
+
+    #Email {
+        width: 90%;
+    }
+
+    #pass {
+        width: 90%;
+    }
+
+    #submit {
+        width: 91%;
+        background-color: #dd571c;
+        font-size: 15px;
+
+    }
+
+    .cringe {
+        position: absolute;
+        /* just for fun*/
+        bottom: 025px;
+        right: 25px;
+    }
+   
+    
+
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+
+    .title {
+        color: #dd571c;
+    }
+
+    .form {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: left;
+
+
+    }
+
+    input[type]::placeholder {
+        width: auto;
+        /* refercane machinne tesing code in course, used to change color in  place holeder*/
+        height: auto;
+        color: #dd571c;
+        background-color: #eee;
+        font-weight: bold;
+        font-size: 16px;
+
+        text-align: center;
+    }
+
+
+
+
+
+
+    #Email {
+        width: 250px;
+        border-radius: 30px;
+    }
+
+    #pass {
+        width: 250px;
+        border-radius: 30px;
+    }
+
+    #submit {
+        width: 258px;
+        background-color: #dd571c;
+        border-radius: 30px;
+        color: white;
+        font-weight: bolder;
+
+    }
+   
+}

@@ -1,0 +1,52 @@
+
+body{
+    background-image: url(psbg.jpg) ;
+    background-repeat:no-repeat ;
+    background-size: 1080px 740px;
+}
+
+
+table,td,th {
+  
+    
+    
+    color: white;
+    border: solid 3px black;
+ 
+ background-color: gray;
+
+ border-collapse: collapse;
+}
+.stock {
+    position: absolute    ;
+    top: 20px;
+    left: 300px;
+    margin: auto;
+  }
+  
+.button button{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    background-color:#FB415A;
+    height: 50px;
+    width: 100px;
+    text-align: center;
+
+}
+.button a{
+    text-decoration: none;
+    color: black;
+}
+.button a:hover{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.144)
+}
+.button button:hover{
+    background-color: rgba(251, 65, 90,0.2)
+}
+.cringe{/* just for fun*/
+    position: absolute;
+    bottom: 025px;
+    right: 25px;
+}
